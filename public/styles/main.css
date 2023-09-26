@@ -1,0 +1,26 @@
+:root {
+	--color-black: #000000;
+}
+
+#app {
+	overflow: hidden;
+	width: 100vw;
+	height: 100vh;
+	background: var(--color-black);
+}
+
+.image-track {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	display: flex;
+	gap: 4vmin;
+	transform: translateY(-50%);
+}
+
+.image-track__image {
+	width: 40vmin;
+	height: 56vmin;
+	object-fit: cover;
+	object-position: center;
+}
