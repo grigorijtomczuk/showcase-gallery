@@ -1,5 +1,5 @@
 :root {
-	--color-black: #000000;
+	--color-black: #110f0e;
 }
 
 #app {
@@ -7,6 +7,7 @@
 	width: 100vw;
 	height: 100vh;
 	background: var(--color-black);
+	cursor: grab;
 	user-select: none;
 }
 
@@ -22,6 +23,7 @@
 .image-track__image {
 	width: 40vmin;
 	height: 56vmin;
+	border-radius: 16px;
 	object-fit: cover;
-	object-position: center;
+	object-position: 100% 50%;
 }
