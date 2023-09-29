@@ -7,6 +7,7 @@
 	width: 100vw;
 	height: 100vh;
 	background: var(--color-black);
+	user-select: none;
 }
 
 .image-track {
@@ -15,7 +16,7 @@
 	left: 50%;
 	display: flex;
 	gap: 4vmin;
-	transform: translateY(-50%);
+	transform: translate(0, -50%);
 }
 
 .image-track__image {
